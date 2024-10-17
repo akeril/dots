@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+target_folder=$(fd . "$HOME" --min-depth 1 --max-depth 3 --hidden --type d | fzf)
+
+if [[ -z $target_folder ]]; then
+  exit 0
+fi
+
+session_name=$(basename "$target_folder" | tr . _)
+
+if ! tmux has-session -t "$session_name" 2> /dev/null; then
+  tmux new-session -d -s "$session_name" -c "$target_folder"
+fi
+
+if [[ -z $TMUX ]]; then
+  tmux attach -t "$session_name"
+else
+  tmux switch-client -t "$session_name"
+fi
