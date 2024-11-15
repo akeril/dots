@@ -7,6 +7,4 @@
     keepassxc
     zathura
   ];
-
-  services.syncthing.enable = true;
 }
