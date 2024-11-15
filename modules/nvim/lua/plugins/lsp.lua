@@ -7,7 +7,7 @@ return {
 				callback = function(event)
 					local keymap = vim.keymap.set
 					keymap("n", "K", vim.lsp.buf.hover)
-					keymap("n", "gd", require("telescope.builtin").lsp_definitions)
+					keymap("n", "gd", vim.lsp.buf.definition)
 					keymap("n", "gr", require("telescope.builtin").lsp_references)
 					keymap("n", "gs", require("telescope.builtin").lsp_document_symbols)
 					keymap("n", "<leader>rn", vim.lsp.buf.rename)
