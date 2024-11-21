@@ -3,7 +3,7 @@
   nix = {
     gc = {
       automatic = true;
-      dates = "weekly";
+      dates = "monthly";
     };
     settings = {
       experimental-features = [ "nix-command" "flakes" ];
