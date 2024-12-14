@@ -12,6 +12,14 @@ keymap("n", "<C-j>", "<C-w>j")
 keymap("n", "<C-k>", "<C-w>k")
 keymap("n", "<C-l>", "<C-w>l")
 
+-- Execute Lua Commands
+keymap("n", "<leader>x", ":.lua<CR>")
+keymap("v", "<leader>x", ":lua<CR>")
+
+-- Quickfix List Navigation
+keymap("n", "<C-p>", "<cmd>cprev<CR>")
+keymap("n", "<C-n>", "<cmd>cnext<CR>")
+
 -- Buffer Navigation
 keymap("n", "<S-h>", "<CMD>bprevious<CR>")
 keymap("n", "<S-l>", "<CMD>bnext<CR>")
