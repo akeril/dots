@@ -27,6 +27,7 @@ status is-interactive; and begin
     abbr --add -- dkc 'docker ps -a | choose 0 | rg -v "CONTAINER" | xargs docker rm'
     abbr --add -- dki 'docker image ls | choose 2 | rg -v "IMAGE" | xargs docker rmi'
     abbr --add -- dkv 'docker volume ls | choose 1 | rg -v "VOLUME" | xargs docker volume rm'
+    abbr --add -- dev 'nix develop --command fish'
     # Aliases
 
     # Interactive shell initialisation
