@@ -40,18 +40,11 @@
   xdg.userDirs = {
     enable = true;
     desktop = "${config.home.homeDirectory}";
-    download = "${config.home.homeDirectory}/downloads";
+    download = "${config.home.homeDirectory}";
   };
 
   programs = {
     fish.enable = true;
-    direnv = {
-      enable = true;
-      config = {
-        hide_env_diff = true;
-      };
-      nix-direnv.enable = true;
-    };
     starship.enable = true;
     zoxide.enable = true;
     man.generateCaches = false;
