@@ -1,7 +1,6 @@
 { pkgs, config, ... }:
 {
   home.packages = with pkgs; [
-    bat
     bottom
     brightnessctl
     choose
@@ -11,15 +10,12 @@
     fd
     fish
     fzf
-    hyperfine
     jq
     just
     pamixer
-    procs
     ripgrep
     rsync
     sd
-    skim
     socat
     starship
     tealdeer
