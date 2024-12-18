@@ -25,5 +25,5 @@
     wl-clipboard
   ];
 
-  xdg.configFile."nvim" = { source = ./.; };
+  xdg.configFile."nvim" = { source = ./.; force = true; };
 }

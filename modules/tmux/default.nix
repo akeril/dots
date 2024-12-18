@@ -5,5 +5,5 @@
     acpi
   ];
 
-  xdg.configFile."tmux" = { source = ./.; };
+  xdg.configFile."tmux" = { source = ./.; force = true; };
 }

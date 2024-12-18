@@ -7,5 +7,5 @@
     nerd-fonts.fira-code
   ];
 
-  xdg.configFile."alacritty" = { source = ./.; };
+  xdg.configFile."alacritty" = { source = ./.; force = true; };
 }

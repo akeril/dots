@@ -4,5 +4,5 @@
     hyprpaper
   ];
 
-  xdg.configFile."hypr" = { source = ./.; };
+  xdg.configFile."hypr" = { source = ./.; force = true; };
 }

@@ -5,7 +5,6 @@ default:
 
 # Rebuild NixOS
 build:
-  just reset
   sudo nixos-rebuild switch --flake .
 
 # Update flake file
