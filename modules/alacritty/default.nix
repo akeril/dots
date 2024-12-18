@@ -4,7 +4,7 @@
     alacritty
     noto-fonts
     source-code-pro
-    (nerdfonts.override { fonts = [ "FiraCode" ]; })
+    nerd-fonts.fira-code
   ];
 
   xdg.configFile."alacritty" = { source = ./.; };
