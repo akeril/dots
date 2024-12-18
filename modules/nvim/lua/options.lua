@@ -11,7 +11,7 @@ vim.opt.ignorecase = true
 vim.opt.inccommand = "split"
 
 -- Editor
-vim.opt.laststatus = 0
+vim.opt.laststatus = 1
 
 vim.opt.number = true
 vim.opt.relativenumber = true

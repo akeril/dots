@@ -1,6 +1,6 @@
 return {
 	"nvim-telescope/telescope.nvim",
-	tag = "0.1.5",
+	tag = "0.1.8",
 	dependencies = { "nvim-lua/plenary.nvim" },
 	event = "BufEnter",
 	opts = {
@@ -12,10 +12,8 @@ return {
 		},
 	},
 	keys = {
-		{ "<leader><leader>", "<CMD>Telescope find_files<CR>" },
-		{ "<leader>fb", "<CMD>Telescope buffers<CR>" },
+		{ "<leader>ff", "<CMD>Telescope find_files<CR>" },
 		{ "<leader>fd", "<CMD>Telescope diagnostics<CR>" },
-		{ "<leader>ff", "<CMD>Telescope git_files<CR>" },
 		{ "<leader>fg", "<CMD>Telescope live_grep<CR>" },
 		{ "<leader>fh", "<CMD>Telescope help_tags<CR>" },
 	},
