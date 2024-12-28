@@ -25,6 +25,11 @@
     xdg-utils
     zip
     zoxide
+
+    gcc
+    gnumake
+    keepassxc
+    zathura
   ];
 
   home.sessionVariables = {

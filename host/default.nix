@@ -25,7 +25,6 @@
     ./network.nix
     ./nix.nix
     ./shell.nix
-    ./utils.nix
     ./virt.nix
   ];
 }

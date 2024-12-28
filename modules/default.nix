@@ -17,7 +17,6 @@
       ./hypr
       ./nvim
       ./shell
-      ./utils
       ./wezterm
     ];
   };
