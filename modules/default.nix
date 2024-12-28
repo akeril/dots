@@ -12,14 +12,13 @@
 
     programs.home-manager.enable = true;
     imports = [
-      ./alacritty
       ./firefox
       ./git
       ./hypr
       ./nvim
       ./shell
-      ./tmux
       ./utils
+      ./wezterm
     ];
   };
 }

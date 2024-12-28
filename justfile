@@ -24,15 +24,8 @@ clean:
 # Symlink config directory for rapid iterations
 hack:
   just reset
-  ln -s ${PWD}/modules/alacritty ${HOME}/.config/alacritty
-  ln -s ${PWD}/modules/hypr ${HOME}/.config/hypr
-  ln -s ${PWD}/modules/nvim ${HOME}/.config/nvim
-  ln -s ${PWD}/modules/tmux ${HOME}/.config/tmux
-  ln -s ${PWD}/modules/shell/config ${HOME}/.config/fish/conf.d
-  ln -s ${PWD}/modules/shell/scripts ${HOME}/.local/bin
+  ln -s ${PWD}/modules/{nvim,hypr,wezterm} ${HOME}/.config/
 
 # Reset config directory to prepare for re-deployment
 reset:
-  rm -rf ${HOME}/.local/bin
-  rm -rf ${HOME}/.config/fish/conf.d
-  rm -rf ${HOME}/.config/{alacritty,dunst,eww,hypr,nvim,tmux}
+  rm -rf ${HOME}/.config/{hypr,nvim,wezterm}

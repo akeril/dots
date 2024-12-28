@@ -49,8 +49,4 @@
   home.file.".config/fish/conf.d" = {
     source = ./config; force = true;
   };
-
-  home.file.".local/bin" = {
-    source = ./scripts; force = true;
-  };
 }

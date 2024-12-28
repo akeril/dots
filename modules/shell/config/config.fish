@@ -33,7 +33,6 @@ status is-interactive; and begin
     # Interactive shell initialisation
     set -g fish_key_bindings fish_vi_key_bindings
     bind -M insert \cy accept-autosuggestion
-    bind -M insert \cf 'sessionizer; commandline -f repaint'
     bind -M insert \cp up-or-search
     bind -M insert \cn down-or-search
     set fish_greeting
