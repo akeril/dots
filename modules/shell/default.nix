@@ -26,10 +26,12 @@
     zip
     zoxide
 
+    keepassxc
+    obs-studio
+    zathura
+
     gcc
     gnumake
-    keepassxc
-    zathura
   ];
 
   home.sessionVariables = {
