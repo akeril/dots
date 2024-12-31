@@ -7,6 +7,7 @@ config.front_end = "WebGpu"
 config.enable_wayland = false
 config.use_fancy_tab_bar = false
 config.color_scheme = "Catppuccin Mocha"
+config.font_size = 18
 config.window_padding = {
 	left = 0,
 	right = 0,
@@ -73,7 +74,7 @@ config.keys = {
 }
 
 wezterm.on("update-right-status", function(window)
-	local date = wezterm.strftime("%Y-%m-%d | %H:%M")
+	local date = wezterm.strftime("%Y-%m-%d | %H:%M ")
 
 	local bat = ""
 	for _, b in ipairs(wezterm.battery_info()) do
