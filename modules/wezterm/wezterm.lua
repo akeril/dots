@@ -3,8 +3,6 @@ local sessionizer = require("sessionizer")
 local config = wezterm.config_builder()
 local act = wezterm.action
 
-config.front_end = "WebGpu"
-config.enable_wayland = false
 config.use_fancy_tab_bar = false
 config.color_scheme = "Catppuccin Mocha"
 config.font_size = 18
