@@ -44,6 +44,7 @@
     enable = true;
     desktop = "${config.home.homeDirectory}";
     download = "${config.home.homeDirectory}";
+    documents = "${config.home.homeDirectory}";
   };
 
   programs = {
