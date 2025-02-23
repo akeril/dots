@@ -5,7 +5,7 @@ local act = wezterm.action
 
 config.use_fancy_tab_bar = false
 config.color_scheme = "Catppuccin Mocha"
-config.font_size = 18
+config.font_size = 11
 config.window_padding = {
 	left = 0,
 	right = 0,
