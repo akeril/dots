@@ -34,12 +34,6 @@
     gnumake
   ];
 
-  home.sessionVariables = {
-    EDITOR = "nvim";
-    BROWSER = "firefox";
-    VISUAL = "nvim";
-  };
-
   xdg.userDirs = {
     enable = true;
     desktop = "${config.home.homeDirectory}";
@@ -54,7 +48,7 @@
     man.generateCaches = false;
   };
 
-  home.file.".config/fish/conf.d" = {
-    source = ./config; force = true;
+  home.file.".config/fish/conf.d/config.fish" = {
+    source = ./config.fish; force = true;
   };
 }
