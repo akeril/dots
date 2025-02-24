@@ -8,10 +8,6 @@
   };
 
   outputs = inputs@{ nixpkgs, home-manager, disko, ... }:
-    let
-      system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
-    in
     {
       nixosConfigurations = {
         lyra = nixpkgs.lib.nixosSystem {
@@ -25,6 +21,5 @@
           ];
         };
       };
-      formatter.${system} = pkgs.nixpkgs-fmt;
     };
 }
