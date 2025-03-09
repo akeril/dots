@@ -27,14 +27,6 @@
       install_url = "https://addons.mozilla.org/firefox/downloads/latest/keepassxc-browser/latest.xpi";
       installation_mode = "force_installed";
     };
-    "addon@darkreader.org" = {
-      install_url = "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi";
-      installation_mode = "force_installed";
-    };
-    "@testpilot-containers" = {
-      install_url = "https://addons.mozilla.org/firefox/downloads/latest/@testpilot-containers/latest.xpi";
-      installation_mode = "force_installed";
-    };
   };
   FirefoxHome = {
     Search = true;
