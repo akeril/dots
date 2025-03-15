@@ -7,5 +7,8 @@ return {
 			vim.cmd.colorscheme("catppuccin")
 		end,
 	},
-	{ "dressing.nvim" },
+	{
+    "snacks.nvim",
+    opts = { indent = { enabled = true } },
+  },
 }
