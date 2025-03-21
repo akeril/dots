@@ -1,14 +1,17 @@
 return {
-	{
-		"catppuccin/nvim",
-		name = "catppuccin",
-		priority = 1000,
-		config = function()
-			vim.cmd.colorscheme("catppuccin")
-		end,
-	},
-	{
+  {
+    "catppuccin/nvim",
+    name = "catppuccin",
+    priority = 1000,
+    config = function()
+      vim.cmd.colorscheme("catppuccin")
+    end,
+  },
+  {
     "snacks.nvim",
-    opts = { indent = { enabled = true } },
+    opts = {
+      indent = {},
+      input = {},
+    },
   },
 }
