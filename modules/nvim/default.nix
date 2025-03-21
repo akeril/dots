@@ -10,7 +10,7 @@
     gopls
     jdt-language-server
     lua-language-server
-    pyright
+    ruff
     nodePackages.typescript-language-server
     zls
 
