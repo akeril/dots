@@ -8,7 +8,7 @@ return {
     end,
   },
   {
-    "snacks.nvim",
+    "folke/snacks.nvim",
     opts = {
       indent = {},
       input = {},
