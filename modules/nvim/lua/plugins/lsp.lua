@@ -7,7 +7,6 @@ return {
       clangd = {},
       csharp_ls = {},
       gopls = {},
-      jdtls = {},
       lua_ls = {},
       ruff = {},
       ts_ls = {},

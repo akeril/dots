@@ -8,7 +8,6 @@
     clang-tools_17
     csharp-ls
     gopls
-    jdt-language-server
     lua-language-server
     ruff
     nodePackages.typescript-language-server
