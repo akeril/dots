@@ -5,11 +5,10 @@
   home-manager.useUserPackages = true;
   home-manager.users."home" = {
     home = {
-      stateVersion = "23.11";
+      stateVersion = "24.11";
       username = "home";
       homeDirectory = "/home/home";
     };
-
     programs.home-manager.enable = true;
     imports = [
       ./git

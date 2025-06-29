@@ -72,6 +72,8 @@
     fish.enable = true;
   };
 
+  time.hardwareClockInLocalTime = true;
+
   users.defaultUserShell = pkgs.fish;
 
   services.openssh.enable = true;
