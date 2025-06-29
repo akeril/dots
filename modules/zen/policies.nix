@@ -27,6 +27,10 @@
       install_url = "https://addons.mozilla.org/firefox/downloads/latest/keepassxc-browser/latest.xpi";
       installation_mode = "force_installed";
     };
+    "moz-addon-prod@7tv.app" = {
+      install_url = "https://extension.7tv.gg/v3.0.9/ext.xpi";
+      installation_mode = "force_installed";
+    };
   };
   FirefoxHome = {
     Search = true;

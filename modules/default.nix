@@ -12,12 +12,12 @@
 
     programs.home-manager.enable = true;
     imports = [
-      ./firefox
       ./git
       ./hypr
       ./nvim
       ./shell
       ./wezterm
+      ./zen
     ];
   };
 }
