@@ -4,6 +4,7 @@
     neovim
 
     # Language Servers
+    basedpyright
     nodePackages.bash-language-server
     clang-tools_17
     csharp-ls

@@ -17,9 +17,4 @@ return {
 		"lewis6991/gitsigns.nvim",
 		opts = {},
 	},
-	{
-		"m4xshen/hardtime.nvim",
-		dependencies = { "MunifTanjim/nui.nvim" },
-		opts = {},
-	},
 }

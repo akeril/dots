@@ -10,4 +10,5 @@ return {
 			["q"] = "actions.close",
 		},
 	},
+	lazy = false,
 }

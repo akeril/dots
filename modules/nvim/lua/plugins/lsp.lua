@@ -3,6 +3,7 @@ return {
 	dependencies = { "saghen/blink.cmp" },
 	opts = {
 		servers = {
+			basedpyright = {},
 			bashls = {},
 			clangd = {},
 			csharp_ls = {},

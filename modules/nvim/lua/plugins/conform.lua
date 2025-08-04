@@ -11,7 +11,7 @@ return {
 				javascriptreact = { "prettier" },
 				json = { "prettier" },
 				lua = { "stylua" },
-				python = { "ruff" },
+				python = { "ruff_fix", "ruff_lint" },
 				typescript = { "prettier" },
 				typescriptreact = { "prettier" },
 			},
