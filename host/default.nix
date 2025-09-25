@@ -72,9 +72,10 @@
     fish.enable = true;
   };
 
-  time.hardwareClockInLocalTime = true;
-
   users.defaultUserShell = pkgs.fish;
 
   services.openssh.enable = true;
+
+  services.tlp.enable = true;
+  services.thermald.enable = true;
 }

@@ -22,7 +22,10 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  swapDevices = [ ];
+  swapDevices =
+    [
+      { device = "/dev/disk/by-label/SWAP"; }
+    ];
 
   networking.useDHCP = lib.mkDefault true;
 
