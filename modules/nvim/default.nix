@@ -6,7 +6,7 @@
     # Language Servers
     basedpyright
     nodePackages.bash-language-server
-    clang-tools_17
+    clang-tools_19
     csharp-ls
     gopls
     lua-language-server
