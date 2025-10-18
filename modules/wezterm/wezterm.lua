@@ -13,6 +13,8 @@ config.window_padding = {
 	bottom = 0,
 }
 
+config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
+
 config.keys = {
 	{
 		key = "f",
@@ -21,52 +23,52 @@ config.keys = {
 	},
 	{
 		key = "h",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivatePaneDirection("Left"),
 	},
 	{
 		key = "l",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivatePaneDirection("Right"),
 	},
 	{
 		key = "k",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivatePaneDirection("Up"),
 	},
 	{
 		key = "j",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivatePaneDirection("Down"),
 	},
 	{
 		key = ";",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.SplitHorizontal({ domain = "CurrentPaneDomain" }),
 	},
 	{
 		key = ",",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.SplitVertical({ domain = "CurrentPaneDomain" }),
 	},
 	{
-		key = "t",
-		mods = "ALT",
+		key = "c",
+		mods = "LEADER",
 		action = act.SpawnTab("CurrentPaneDomain"),
 	},
 	{
 		key = "w",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.CloseCurrentPane({ confirm = false }),
 	},
 	{
 		key = "p",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivateTabRelative(-1),
 	},
 	{
 		key = "n",
-		mods = "ALT",
+		mods = "LEADER",
 		action = act.ActivateTabRelative(1),
 	},
 }
