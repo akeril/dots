@@ -11,6 +11,7 @@
     gopls
     lua-language-server
     ruff
+    ty
     nodePackages.typescript-language-server
     zls
 
