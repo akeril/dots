@@ -11,7 +11,6 @@
       userName = "akeril";
       extraConfig = {
         init.defaultBranch = "main";
-        credential.helper = "store";
       };
     };
   };
